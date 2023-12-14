@@ -1,0 +1,97 @@
+*{
+    /*border: 1px solid #FF0000;*/
+    list-style: none;
+}
+/**********************Header*****************************/
+header {
+    background: #A3A656;
+    padding: 10px 0px;
+}
+
+#menu-header{display: inline-block;}
+#menu-header ul li, #menu-cuenta ul li{display: inline-block;}
+
+#menu-cuenta{
+    display: inline-block;
+    float: right;
+    text-align: center;
+}
+#menu-cuenta ul{margin: 0px;}
+#menu-cuenta ul li img{
+    vertical-align: middle;
+    padding-right: 5px;
+}
+#mi-cuenta, #idioma{display: inline-block;}
+
+#menu-header li a, #menu-cuenta li a {color: #000;}
+
+/**********************Main*****************************/
+#spa-todos{
+    height: 600px;
+    background-image: url("../images/main.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#spa-todos-text{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 150px;
+}
+
+/**********************Reserva*****************************/
+#reserva-cita{
+    background: #F2F6F6;
+    padding: 9px 0px;
+}
+
+#reserva-cita ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#reserva-cita li {
+    margin-right: 10px; 
+}
+
+#reserva,
+#codigo{
+    border-radius:10px;
+    padding:15px ;
+    border: #FFF;
+}
+
+/**********************Servicios*****************************/
+#servicios{
+    display: flex;
+    justify-content: center;
+}
+.servicio-spa{margin: 0px 50px;}
+.servicio-spa h2{
+    text-align: center;
+    color: #FFF;
+    background: #A3A656;
+    margin: 0px;
+    padding: 15px 0px;
+    border-radius: 15px 15px 0px 0px;
+}
+.precio-reserva{margin: 0px;}
+.precio-reserva ul{
+    display: flex; 
+    justify-content: 
+    space-between; 
+    margin: 0px;
+}
+
+.precio-reserva li p{
+    font-size: 1.5rem;
+}
+
+#reservar{
+    background: #A3A656;
+    border: #A3A656;
+    color: #FFF;
+    padding: 15px 35px;
+    border-radius: 20px;
+    margin: 15px 0px;
+}
